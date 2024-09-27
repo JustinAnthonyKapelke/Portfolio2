@@ -1,21 +1,19 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Justin Anthony Kapelke Jørgensen
+description: Datamatikerstuderende 
+site_title: '@JustinAnthonyKapelke - Justin Anthony Kapelke Jørgensen'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
+github_username: JustinAnthonyKapelke
+blog_url: https://justinanthonykapelke.github.io/Portfolio2/
 email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+keybase_username: JustinAnthonyKapelke
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/Justin.jpg
 
 # Google Analytics ID
 google_analytics: 
