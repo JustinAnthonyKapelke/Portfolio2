@@ -58,7 +58,7 @@
                 </ul>
                <img src=./assets/images/Kvalitetskriterier.png >
                 <img src=./assets/images/Objektmodel.png >
-                <img src=./assets/images/Domænemodel.png >
+                <img src="./assets/images/Domænemodel.png" class="toggle-image" id="domænemodel" style="display: none;">
             </div>
 
             
@@ -280,3 +280,21 @@
         </div>
     </section>
 </div>
+
+ <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const toggleHeadings = document.querySelectorAll(".toggle-heading");
+
+            toggleHeadings.forEach(heading => {
+                heading.addEventListener("click", () => {
+                    const targetId = heading.getAttribute("data-target");
+                    const targetImage = document.getElementById(targetId);
+
+                    if (targetImage) {
+                        const isVisible = targetImage.style.display === "block";
+                        targetImage.style.display = isVisible ? "none" : "block";
+                    }
+                });
+            });
+        });
+    </script>
